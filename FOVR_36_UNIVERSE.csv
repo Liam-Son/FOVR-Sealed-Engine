@@ -1,0 +1,37 @@
+symbol,sector,industry
+AAPL,Technology,Software/Hardware
+MSFT,Technology,Software
+ORCL,Technology,Software
+ADBE,Technology,Software
+CSCO,Technology,Networking
+IBM,Technology,IT Services
+AMD,Technology,Semiconductors
+NVDA,Technology,Semiconductors
+XOM,Energy,Integrated Oil
+CVX,Energy,Integrated Oil
+COP,Energy,E&P
+LIN,Materials,Industrial Gases
+CAT,Industrials,Machinery
+DE,Industrials,Machinery
+HON,Industrials,Conglomerate
+EMR,Industrials,Industrial Tech
+UPS,Industrials,Logistics
+FDX,Industrials,Logistics
+GE,Industrials,Aerospace/Industrial
+LMT,Industrials,Aerospace/Defense
+WMT,Consumer,Retail
+COST,Consumer,Retail
+TGT,Consumer,Retail
+HD,Consumer,Home Improvement
+LOW,Consumer,Home Improvement
+MCD,Consumer,Restaurants
+SBUX,Consumer,Restaurants
+NKE,Consumer,Apparel
+JNJ,Healthcare,Pharma/Medtech
+PFE,Healthcare,Pharma
+MRK,Healthcare,Pharma
+ABBV,Healthcare,Pharma
+LLY,Healthcare,Pharma
+TMO,Healthcare,Life Sciences
+MDT,Healthcare,Medtech
+ABT,Healthcare,Medtech

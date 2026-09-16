@@ -1,0 +1,11 @@
+risk_id,risk,severity,failure_mode,control,status
+R01,Data leakage,Critical,Future-dated source enters signal,PIT audit; fail-closed,Open
+R02,IV methodology mismatch,High,Local IV90 differs from proprietary field,document solver; compare vendor fields,Open
+R03,Execution-cost blowout,High,spread/slippage exceeds margin,live cost gate; halt-new-orders,Controlled
+R04,Borrow unavailable,High,short cannot be established,borrow availability gate,Controlled
+R05,Borrow squeeze,High,borrow rate spikes after entry,monitor rate; hard cap; de-risk,Open
+R06,Signal drift,High,distribution leaves calibration range,drift z monitor; promotion gate,Controlled
+R07,Factor leakage,Medium,unintended beta/sector exposure,factor residualization + monitor,Controlled
+R08,Reconciliation failure,Critical,broker state differs from engine,startup reconciliation; duplicate suppression,Controlled
+R09,Data outage/stale input,Critical,stale EOD/option/fundamental data,freshness gate; STOP file,Controlled
+R10,Small-account capacity,Medium,minimum commissions dominate,cost efficiency gate,Controlled

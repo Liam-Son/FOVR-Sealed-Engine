@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-09-15",
+  "free_sources": {
+    "philippdubach_104_symbol_options": {"status": "UPSTREAM_GONE"},
+    "preserved_long_history_options": {"status": "AVAILABLE_PARTIAL", "symbols": ["SPY", "IWM", "QQQ"]},
+    "thetadata_free": {"status": "AVAILABLE_ACCOUNT_TERMINAL_REQUIRED", "coverage": "1 year historical EOD"},
+    "quantrocket_learning_bundle": {"status": "AVAILABLE_FREE_ACCOUNT_SOFTWARE_REQUIRED"},
+    "sp500_pit_pipeline": {"status": "AVAILABLE_FREE_TIINGO_KEY_REQUIRED"}
+  },
+  "production_claim": "None of the free research paths automatically grants institutional commercial redistribution rights."
+}
