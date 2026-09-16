@@ -1,0 +1,16 @@
+{
+  "version": "FOVR v23.1 TESTED",
+  "suite": "v19-v23 sealed + v23.1 sleeves",
+  "result": "63/63 PASS",
+  "upgrades": [
+    "validate_result_contract strict_consistency defaults to True",
+    "lying summary cumulative return or turnover now fail-closed",
+    "per-run nonce remains bound into manifest hash",
+    "v22 full-chain reseal test uses external HMAC key"
+  ],
+  "not_claimed": [
+    "live Sharpe",
+    "commercial options license",
+    "forward track record"
+  ]
+}
