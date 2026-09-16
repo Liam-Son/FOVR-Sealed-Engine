@@ -106,7 +106,7 @@ def _recompute_average_turnover(positions):
     return float(turn.mean()) if len(turn) else 0.0
 
 def validate_result_contract(output_dir, expected_input_manifest_hash=None, expected_run_nonce=None,
-                             strict_consistency=False, metric_tolerance=1e-8):
+                             strict_consistency=True, metric_tolerance=1e-8):
     d=Path(output_dir)
     missing=[f for f in EXPECTED_FILES if not (d/f).exists()]
     if missing:
